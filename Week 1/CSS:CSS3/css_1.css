@@ -1,0 +1,43 @@
+#page {
+	width: 75%;
+}
+.wrapper {
+	background-color: lightgrey;
+	border-radius: 10px;
+	padding: 10px 10px;
+	margin: 10px;
+
+}
+
+#content {
+	background-color: darkgrey;
+	border-radius: 10px;
+	padding: 10px 10px;
+	margin: 10px;
+	width: 60%;
+	display: inline-block;
+}
+
+#sidebar {
+	position: relative;
+	top: -115px;
+	width: 30%;
+	display: inline-block;
+}
+
+#sidebar a {
+	text-decoration: none;
+}
+
+#content li {
+	padding: 10px 0px;
+}
+
+
+.important {
+	font-weight: bold;
+}
+
+#footer p {
+	margin: 0px 0px;
+}

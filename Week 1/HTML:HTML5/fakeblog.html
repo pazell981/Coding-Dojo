@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Fake Blog</title>
+	<meta name="description" content="This my fake blog."/>
+</head>
+<body>
+<div id="nav">
+<ul>
+	<li><a href="">Home</a></li>
+	<li><a href="">About Me</a></li>
+	<li><a href="">Contact Me</a></li>
+</ul>
+</div>
+<div id="main-content">
+<h1>My Fake Blog</h1>
+<h2>06-23-2014 Blog Entry</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="important">Proin pellentesque</span> odio id hendrerit suscipit. Curabitur a lectus neque. Phasellus porttitor velit et hendrerit blandit. Ut vehicula eleifend metus sed semper. Nulla fringilla nisi eu augue iaculis, nec imperdiet felis venenatis. Cras felis velit, elementum mattis lectus sit amet, suscipit dignissim urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac <span class="important">habitasse platea dictumst</span>. Donec non velit blandit, semper quam in, blandit nisl. Vestibulum venenatis laoreet mi non volutpat. Vivamus et risus eu orci vehicula interdum sed non nisi. Ut arcu sapien, accumsan nec interdum in, porta semper dui. Proin vel egestas ligula, eu pretium quam. Pellentesque id luctus urna.</p>
+<table>
+<thead><tr><th>Some Info</th><th>More Info</th><th>Again More Info</th></tr></thead>
+<tbody>
+	<tr><td>Cell C1R1</td><td>Cell C2R1</td><td>Cell C3R1</td></tr>
+	<tr><td>Cell C1R2</td><td>Cell C2R2</td><td>Cell C3R2</td></tr>
+	<tr><td>Cell C1R3</td><td>Cell C2R3</td><td>Cell C3R3</td></tr>
+</table>
+</div>
+<div id="side-content"></div>
+<ol>
+	<li>Item #1</li>
+	<li>Item #2</li>
+	<li>Item #3</li>
+	<li>Item #4</li>
+</ol>
+<form action="process.php" method="post">
+	<label>Name: <input type="text" name="name"></label>
+	<label>E-mail: <input type="text" name="email"></label>
+	<br>
+	<label>Comment: <textarea name="comment"></textarea></label>
+	<p>Was this post:</p>
+	<label><input type="checkbox" name="post_was" value="funny">Funny</label>
+	<label><input type="checkbox" name="post_was" value="interesting">Interesting</label>
+	<label><input type="checkbox" name="post_was" value="weird">Weird</label>
+	<p>This post was useful:</p>
+	<label><input type="radio" name="useful" value="yes">Yes</label>
+	<label><input type="radio" name="useful" value="no">No</label>
+	<input type="submit" value="Post Comment">
+</form>
+</body>
+</html>

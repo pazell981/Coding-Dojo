@@ -1,0 +1,41 @@
+#wrapper{
+    width: 900px;
+    margin: 0px auto;
+    font-family: Verdana,Arial,sans-serif;
+}
+
+#header {
+    border-bottom: 15px solid #a01f3d;
+}
+#logo{
+  display: inline-block;
+}
+.logo{
+  display:block;
+  margin:;
+}
+#header ul {
+    list-style-type: none;
+    display: inline-block;
+}
+#header ul li {
+    padding-left: 5px;
+    display: inline;
+}
+#jumbo img {
+    border: 3px;
+    border-style: dotted;
+    margin: 0 auto;
+}
+#footer ul li {
+    padding-left: 5px;
+    display: inline;
+}
+
+#top, #bottom {
+    border-left: 5px solid grey;
+    display: inline-blocks;
+}
+h2 {
+    margin-top
+}

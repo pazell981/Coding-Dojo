@@ -1,0 +1,31 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Form Webpage</title>
+	<meta name="description" content="Webpage description"/>
+</head>
+<body>
+<form action="process.php" method="post">
+	<p>Please Register</p>
+	<label>First Name:<input type="text" name="first_name"></label>
+	<label>Last Name:<input type="text" name="last_name"></label>
+	<label>E-Mail:<input type="text" name="email"></label>
+	<p>Select your gender:</p>
+	<label><input type="radio" name="gender" value="male">Male</label>
+	<label><input type="radio" name="gender" value="female">Female</label>
+	<p>Select 3 of your favorte colors:</p>
+	<label><input type="checkbox" name="color" value="blue">Blue</label>
+	<label><input type="checkbox" name="color" value="green">Green</label>
+	<label><input type="checkbox" name="color" value="red">Red</label>
+	<label><input type="checkbox" name="color" value="black">Black</label>
+	<label><input type="checkbox" name="color" value="yellow">Yellow</label>
+	<br>
+	<label>Say a few words about yourself:<textarea name="descrition"></textarea></label>
+	<br>
+	<label>Password: <input type="password" name="password"></label>
+	<label>Password Confirmation: <input type="password" name="password_confrimation"></label>
+	<br>
+	<input type="submit" value="Click here to register">
+</form>
+</body>
+</html>
