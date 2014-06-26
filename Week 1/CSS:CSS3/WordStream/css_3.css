@@ -6,6 +6,19 @@
 a{
 	color: #008DCD;
 }
+p,li {
+	font-size: 10pt;
+}
+li {
+	text-indent: 20px;
+	list-style-position: inside;
+}
+li:before {
+	color: #008DCD;
+}
+.bold {
+	font-weight: bold;
+}
 .button {
 	display: block;
 	border-radius: 5px;
@@ -15,7 +28,8 @@ a{
 	font-size: 10pt;
 	text-decoration: none;
 }
-a.class {
+
+a.button {
 	width: 150px;
 }
 
@@ -44,6 +58,7 @@ a.class {
 }
 
 #toolbar li {
+	text-indent: 0px;
 	display: inline-block;
 	padding: 15px 10px 10px;
 	border-right: 1px solid #909090;
@@ -103,10 +118,14 @@ a.class {
 	color: #037b9e;
 }
 #infobar {
+	width: 800px;
+	margin-left: 200px;
 	display: block;
+	border-bottom: 2px solid #E0E0E0;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
 }
 #breadcrumb {
-	margin-left: 200px;
 	display: inline-block;
 }
 #breadcrumb img {
@@ -114,27 +133,32 @@ a.class {
 	display: inline-block;
 }
 #breadcrumb p {
+	font-size: 10pt;
 	vertical-align: middle;
 	display: inline-block;
 }
 #phone {
 	display: inline-block;
 	width: 200px;
-	margin: 0 0 0 500px;
+	margin: 5px 0 5px 500px;
 }
 #phone img {
 	display: inline-block;
 }
-#phone p {
+#phonetxt {
 	vertical-align: top;
 	display: inline-block;
+	width: 150px;
+}
+#phonetxt p {
 	font-size: 8pt;
 }
 #mainphone {
 	font-size: 16pt;
 	font-weight: bold;
 	padding: 0pt auto;
-	 color: #008DCD;
+	color: #008DCD;
+	text-align: center;
 }
 
 #sidebar {
@@ -163,21 +187,47 @@ a.class {
 }
 
 #schedule{
-	border: 1pt solid black;
 	background-color: #008DCD;
 	color: #FFFFFF;
 }
 #trial{
-	border: 1pt solid black;
 	background-color: #e34806;
 	color: #FFFFFF;
 }
 #body {
 	display: inline-block;
 	width: 75%;
+	padding: 10px;
+}
+#body h1 {
+	color: #008DCD;
+	font-size: 12pt;
+}
+#body h2 {
+	color: #008DCD;
+	font-size: 10pt;
+}
+#body ul {
+	margin: 10px 0;
+}
+#calloutAd {
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #80bdda;
+}
+#calloutAd img{
+	display: inline-block;
+	margin: 5px;
+}
+#calloutAdtxt {
+	width:600px;
+	margin-top: 20px;
+	vertical-align: top;
+	display: inline-block;
 }
 #getstarted{
-	border: 1pt solid black;
+	margin: -20px 250px 10px;
+	text-align: center;
 	background-color: #a5c341;
 	color: #FFFFFF;
 }
