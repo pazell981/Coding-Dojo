@@ -4,12 +4,12 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-	width: 100%;
 	padding: 5px 10px;
 	font-size: 12pt;
 	font-weight: bolder;
 	background-color: #f9ca02;
 	color: #3d3d3d;
+	text-transform: uppercase;
 }
 .bold {
 	font-weight: bold;
@@ -63,11 +63,11 @@ h1 {
 	background-color: #000000;
 	padding: 5px 20px;
 }
-#top {
+#info {
 	width: 100%;
 	margin: 10px 0px;
 }
-#top img {
+#warehouse {
 	border: 5px solid #FFFFFF;
 }
 #about{
@@ -95,4 +95,59 @@ h1 {
 	padding-right: 20px;
 	width: 475px;
 	font-size: 8pt;
+}
+#ppcbodylogo {
+	width: 45px;
+	height: 10px;
+	background-color: #FFFFFF;
+	display: inline-block;
+}
+#news {
+	font-size: 8pt;
+	font-weight: lighter;
+	color: #F9CA02;
+}
+#content {
+	width: 100%;
+}
+
+.column {
+	vertical-align: top;
+	width: 220px;
+	height: 250px;
+	margin: 0px 5px;
+	background-color: #FFFFFF;
+	display: inline-block;
+}
+
+.column h1 {
+	width: 200px;
+}
+.column img {
+	width: 220px;
+}
+.column p {
+	padding: 15px 10px;
+	font-size: 8pt;
+}
+
+.readmore {
+	position: absolute;
+	bottom: -185px;
+	width: 125px;
+	height: 30px;
+	margin-left: 110px;
+	padding: 0px 10px;
+	background-image: url('readmore.png');
+	background-size: 105px 25px;
+	background-repeat: no-repeat;
+	vertical-align: bottom;
+}
+
+.readmore a {
+	color: #000000;
+	font-size: 8pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
 }
