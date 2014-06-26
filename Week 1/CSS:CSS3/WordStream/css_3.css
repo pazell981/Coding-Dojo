@@ -26,6 +26,7 @@ li:before {
 	text-align: center;
 	margin: 5px 10px;
 	font-size: 10pt;
+	font-weight: bolder;
 	text-decoration: none;
 }
 
