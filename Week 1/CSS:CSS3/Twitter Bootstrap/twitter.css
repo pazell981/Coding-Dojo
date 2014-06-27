@@ -1,0 +1,9 @@
+.mytable table {
+	width: 500px;
+	border: 1px solid #ffffff;
+	margin: 10px auto;
+}
+.buttons {
+	width: 500px;
+	margin: 20px auto;
+}

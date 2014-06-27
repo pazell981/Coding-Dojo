@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+h1{
+	display: block;
+	margin: 5px auto;
+	width: 1500px;
+	height: 50px;
+	text-align: center;
+}
+#wrapper{
+	width: 1500px;
+	margin: 0px auto;
+}
+.cellheader {
+	position: absolute;
+	width: 75px;
+	height: 100px;
+	margin: 2px 5px;
+}
+.cellheader p {
+	height: 100px;
+	color: red;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}
+.cell{
+	position: absolute;
+	width: 75px;
+	height: 100px;
+	margin: 2px 5px;
+	border: 1px solid #000000;
+	text-align: center;
+}
+.cell h2 {
+	color: darkblue;
+}
+.violet {
+	background-color: violet;
+}
+.r1{
+	top: 70px;
+}
+.r2{
+	top: 175px;
+}
+.r3{
+	top: 280px;
+}
+.r4{
+	top: 385px;
+}
+.r5{
+	top: 490px;
+}
+.r6{
+	top: 595px;
+}
+.r7{
+	top: 700px;
+}
+.r8{
+	top: 805px;
+}
+.r9{
+	top: 910px;
+}
+.r10{
+	top: 1015px;
+}
+.c1{
+	left: 20px;
+}
+.c2{
+	left: 100px;
+}
+.c3{
+	left: 180px;
+}
+.c4{
+	left: 270px;
+}
+.c5{
+	left: 350px;
+}
+.c6{
+	left: 430px;
+}
+.c7{
+	left: 510px;
+}
+.c8{
+	left: 590px;
+}
+.c9{
+	left: 670px;
+}
+.c10{
+	left: 750px;
+}
+.c11{
+	left: 830px;
+}
+.c12{
+	left: 910px;
+}
+.c13{
+	left: 990px;
+}
+.c14{
+	left: 1070px;
+}
+.c15{
+	left: 1150px;
+}
+.c16{
+	left: 1230px;
+}
+.c17{
+	left: 1310px;
+}
+.c18{
+	left: 1390px;
+}
+.c19{
+	left: 1470px;
+}
