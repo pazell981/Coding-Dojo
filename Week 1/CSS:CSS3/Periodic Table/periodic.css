@@ -5,126 +5,137 @@
 }
 h1{
 	display: block;
-	margin: 5px auto;
-	width: 1500px;
-	height: 50px;
-	text-align: center;
+	margin: 5px;
 }
 #wrapper{
-	width: 1500px;
+	width: 1250px;
 	margin: 0px auto;
 }
 .cellheader {
 	position: absolute;
-	width: 75px;
-	height: 100px;
+	width: 50px;
+	height: 75px;
 	margin: 2px 5px;
+	padding: 30px 0px;
 }
 .cellheader p {
 	height: 100px;
-	color: red;
+	color: #FC0584;
 	font-size: 10pt;
 	font-weight: bold;
 	text-align: center;
 }
 .cell{
 	position: absolute;
-	width: 75px;
-	height: 100px;
+	width: 50px;
+	height: 75px;
 	margin: 2px 5px;
 	border: 1px solid #000000;
 	text-align: center;
 }
-.cell h2 {
-	color: darkblue;
+.cell p {
+	font-size: 8pt;
+	margin: 5px 0px;
 }
-.violet {
-	background-color: violet;
+.cell h2 {
+	color: #1B28B8;
+}
+.blue {
+	background-color: #689BFF;
+}
+.pink {
+	background-color: #FD9A98;
+}
+.yellow {
+	background-color: #FECB00;
+}
+.green {
+	background-color: #1FCA21;
 }
 .r1{
-	top: 70px;
+	top: 45px;
 }
 .r2{
-	top: 175px;
+	top: 125px;
 }
 .r3{
-	top: 280px;
+	top: 205px;
 }
 .r4{
-	top: 385px;
+	top: 285px;
 }
 .r5{
-	top: 490px;
+	top: 365px;
 }
 .r6{
-	top: 595px;
+	top: 445px;
 }
 .r7{
-	top: 700px;
+	top: 525px;
 }
 .r8{
-	top: 805px;
+	top: 605px;
 }
 .r9{
-	top: 910px;
+	top: 685px;
 }
 .r10{
-	top: 1015px;
+	top: 765px;
 }
 .c1{
-	left: 20px;
+	left: 30px;
 }
 .c2{
-	left: 100px;
+	left: 85px;
 }
 .c3{
-	left: 180px;
+	left: 140px;
 }
 .c4{
-	left: 270px;
+	left: 205px;
 }
 .c5{
-	left: 350px;
+	left: 260px;
 }
 .c6{
-	left: 430px;
+	left: 315px;
 }
 .c7{
-	left: 510px;
+	left: 370px;
 }
 .c8{
-	left: 590px;
+	left: 425px;
 }
 .c9{
-	left: 670px;
+	left: 480px;
 }
 .c10{
-	left: 750px;
+	left: 535px;
 }
 .c11{
-	left: 830px;
+	left: 590px;
 }
 .c12{
-	left: 910px;
+	left: 645px;
 }
 .c13{
-	left: 990px;
+	left: 700px;
 }
 .c14{
-	left: 1070px;
+	left: 755px;
 }
 .c15{
-	left: 1150px;
+	left: 810px;
 }
 .c16{
-	left: 1230px;
+	left: 865px;
 }
 .c17{
-	left: 1310px;
+	left: 920px;
 }
 .c18{
-	left: 1390px;
+	left: 975px;
 }
 .c19{
-	left: 1470px;
+	left: 1030px;
 }
